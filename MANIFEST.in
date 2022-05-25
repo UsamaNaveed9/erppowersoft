@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erppowersoft *.css
+recursive-include erppowersoft *.csv
+recursive-include erppowersoft *.html
+recursive-include erppowersoft *.ico
+recursive-include erppowersoft *.js
+recursive-include erppowersoft *.json
+recursive-include erppowersoft *.md
+recursive-include erppowersoft *.png
+recursive-include erppowersoft *.py
+recursive-include erppowersoft *.svg
+recursive-include erppowersoft *.txt
+recursive-exclude erppowersoft *.pyc
