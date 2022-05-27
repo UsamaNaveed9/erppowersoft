@@ -99,6 +99,14 @@ app_license = "MIT"
 #	}
 # }
 
+on_login = 'erppowersoft.events.auth.successful_login'
+
+doc_events = {
+  'User': {
+    'validate': 'erppowersoft.events.auth.user_limit',
+    'on_update': 'erppowersoft.events.auth.user_limit'
+  }
+}
 # Scheduled Tasks
 # ---------------
 

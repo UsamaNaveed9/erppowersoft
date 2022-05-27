@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "creation": "2022-05-26 13:58:27.637836",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "no_of_users",
+  "site_expiry_date",
+  "column_break_3",
+  "support_email",
+  "support_phone"
+ ],
+ "fields": [
+  {
+   "fieldname": "no_of_users",
+   "fieldtype": "Int",
+   "label": "No. Of Users"
+  },
+  {
+   "fieldname": "site_expiry_date",
+   "fieldtype": "Date",
+   "label": "Site Expiry Date"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "support_email",
+   "fieldtype": "Data",
+   "label": "Support Email"
+  },
+  {
+   "fieldname": "support_phone",
+   "fieldtype": "Data",
+   "label": "Support Phone"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-05-28 00:37:29.536835",
+ "modified_by": "Administrator",
+ "module": "ERPPowerSoft",
+ "name": "PS Info",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
