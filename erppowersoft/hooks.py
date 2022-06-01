@@ -105,6 +105,10 @@ doc_events = {
   'User': {
     'validate': 'erppowersoft.events.auth.user_limit',
     'on_update': 'erppowersoft.events.auth.user_limit'
+  },
+  'Company': {
+    'validate':'erppowersoft.events.auth.company_limit',
+    'on_update':'erppowersoft.events.auth.company_limit'
   }
 }
 # Scheduled Tasks

@@ -6,6 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "no_of_users",
+  "no_of_companies",
   "site_expiry_date",
   "column_break_3",
   "support_email",
@@ -35,13 +36,18 @@
    "fieldname": "support_phone",
    "fieldtype": "Data",
    "label": "Support Phone"
+  },
+  {
+   "fieldname": "no_of_companies",
+   "fieldtype": "Int",
+   "label": "No. Of Companies"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-05-28 00:37:29.536835",
+ "modified": "2022-05-30 14:40:50.700918",
  "modified_by": "Administrator",
  "module": "ERPPowerSoft",
  "name": "PS Info",
